@@ -16,7 +16,7 @@
 ################################################################
 
 
-# Veri seti Scoutium’dan maçlarda gözlemlenen futbolcuların özelliklerine göre scoutların değerlendirdikleri futbolcuların, maç içerisinde puanlanan özellikleri ve puanlarını içeren bilgilerden oluşmaktadır.
+# Veri seti  maçlarda gözlemlenen futbolcuların özelliklerine göre scoutların değerlendirdikleri futbolcuların, maç içerisinde puanlanan özellikleri ve puanlarını içeren bilgilerden oluşmaktadır.
 
 # attributes: Oyuncuları değerlendiren kullanıcıların bir maçta izleyip değerlendirdikleri her oyuncunun özelliklerine verdikleri puanları içeriyor. (bağımsız değişkenler)
 
@@ -64,7 +64,7 @@
 ################################################################
 
 
-# Görev 1: scoutium_attributes.csv ve scoutium_potential_labels.csv dosyalarını okutunuz.
+# Görev 1: _attributes.csv ve _potential_labels.csv dosyalarını okutunuz.
 
 
 
@@ -135,13 +135,13 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 warnings.simplefilter("ignore")
 
 ################################################################
-# Görev 1: scoutium_attributes.csv ve scoutium_potential_labels.csv dosyalarını okutunuz.
+# Görev 1: _attributes.csv ve _potential_labels.csv dosyalarını okutunuz.
 ################################################################
 
-df = pd.read_csv("/scoutium_attributes.csv", sep=";")
+df = pd.read_csv("/_attributes.csv", sep=";")
 df.head()
 df.shape
-df2 = pd.read_csv("/scoutium_potential_labels.csv", sep=";")
+df2 = pd.read_csv("/_potential_labels.csv", sep=";")
 df2.head()
 df2.shape
 
