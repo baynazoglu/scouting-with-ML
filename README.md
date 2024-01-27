@@ -1,6 +1,9 @@
 
 # Talent Scouting Classification with Machine Learning
 
+<img src="https://github.com/baynazoglu/scouting-with-ML/blob/main/scouting.jpg" alt="Image" width="700" height="420">
+
+
 ## Business Problem
 
 This project aims to predict the class (average, highlighted) of players based on the ratings given by scouts on the players' characteristics.
